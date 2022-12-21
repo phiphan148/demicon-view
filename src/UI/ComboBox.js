@@ -27,18 +27,18 @@ class ComboBox extends React.Component {
     }
     return (
       <div className="ComboBox">
-        <Container>
+        <Container className="ComboBox-container">
           <Row>
             <Col>
               <Form.Group className="mb-3">
                 <Container>
                   <Row>
-                    <Col xs={5}>
+                    <Col xs={6}>
                       <Form.Label>Choose country to see users</Form.Label>
                     </Col>
                     <Col>
                       <Form.Select name="country" id="country" onChange={getCountry}>
-                        <option value="">Choose All Country</option>
+                        <option value="">All Country</option>
                         {
                           this.props.countryList.map((country) => (
                             <option value={country} key={country}>{country}</option>
@@ -55,6 +55,7 @@ class ComboBox extends React.Component {
             </Col>
           </Row>
         </Container>
+        <p>Number of users: {this.props.userNumber}</p>
       </div>
 
     )

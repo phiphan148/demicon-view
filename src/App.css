@@ -1,7 +1,11 @@
 .ComboBox {
-    text-align: center;
+    text-align: left;
     width: 60%;
     margin: 16px auto;
+}
+
+.ComboBox .container{
+    padding: 0;
 }
 
 .UserList-container {
@@ -11,4 +15,16 @@
 
 .UserList-item {
     margin: 16px auto;
+}
+
+.ImportUsers {
+    text-align: left;
+    width: 60%;
+    margin: 16px auto;
+}
+
+.ImportUsers .button {
+    width: 150px;
+    margin-right: 16px;
+    margin-left: 16px;
 }
