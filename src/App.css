@@ -1,0 +1,14 @@
+.ComboBox {
+    text-align: center;
+    width: 60%;
+    margin: 16px auto;
+}
+
+.UserList-container {
+    width: 60%;
+    margin: 16px auto;
+}
+
+.UserList-item {
+    margin: 16px auto;
+}
